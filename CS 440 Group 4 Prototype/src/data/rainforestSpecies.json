@@ -1,0 +1,282 @@
+{
+  "biome": "Rainforest",
+  "center": {
+    "lat": -3.4653,
+    "lng": -62.2159
+  },
+  "zoom": 10,
+  "species": [
+    {
+      "id": 74442,
+      "name": "Capybara",
+      "scientificName": "Hydrochoerus hydrochaeris",
+      "position": {
+        "lat": -3.1,
+        "lng": -60.0
+      },
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/39870217/medium.jpg",
+      "status": "Least Concern",
+      "population": "4500 observations on iNaturalist",
+      "description": "The Capybara is the world’s largest rodent, commonly found in South American rainforests and wetlands. It is a semi-aquatic species that lives near rivers and lakes.",
+      "diet": "Herbivorous, feeding mainly on grasses and aquatic plants.",
+      "habitat": "Rainforest and wetlands near freshwater sources.",
+      "threats": "Habitat loss, hunting for meat and hide, and water pollution."
+    },
+    {
+      "id": 18874,
+      "name": "Parrots",
+      "scientificName": "Psittaciformes",
+      "position": {
+        "lat": -3.0,
+        "lng": -62.0
+      },
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/242426579/medium.jpg",
+      "status": "Varied",
+      "population": "≈ 393 species in 92 genera globally on iNaturalist",
+      "description": "The order Psittaciformes includes all parrots, macaws, cockatoos and allied birds found mainly in tropical regions. :contentReference[oaicite:1]{index=1}",
+      "diet": "Mostly seeds, nuts, fruits and some vegetation; many also use strong beaks for access and nest cavities.",
+      "habitat": "Tropical and subtropical forests, woodlands, savannas and wetlands – many in rainforest biomes.",
+      "threats": "Habitat loss, illegal pet trade, fragmentation, climate change."
+    },
+    {
+      "id": 16787,
+      "name": "Toco Toucan",
+      "scientificName": "Ramphastos toco",
+      "position": {
+        "lat": 2.4339,
+        "lng": -64.4288
+      },
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/63281117/medium.jpg",
+      "status": "Least Concern",
+      "population": "≈ 10,000 observations on iNaturalist",
+      "description": "The Toco Toucan is the largest and most recognizable toucan species, known for its massive orange bill and striking black and white plumage. It plays an important role in rainforest ecosystems as a seed disperser.",
+      "diet": "Primarily fruits, but also insects, small reptiles, and eggs.",
+      "habitat": "Tropical and subtropical rainforests, woodlands, and savannas of South America.",
+      "threats": "Deforestation, habitat fragmentation, and illegal pet trade."
+    },
+    {
+      "id": 12781,
+      "name": "Jaguar",
+      "scientificName": "Panthera onca",
+      "position": {
+        "lat": -6.2392,
+        "lng": -72.6409
+      },
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/51015966/medium.jpg",
+      "status": "Near Threatened",
+      "population": "≈ 5,000–15,000 mature individuals remaining in the wild",
+      "description": "The Jaguar is the largest cat species in the Americas and an apex predator of the rainforest. Known for its powerful build and spotted coat, it plays a crucial role in maintaining ecological balance by regulating prey populations.",
+      "diet": "Carnivorous; feeds on mammals, reptiles, birds, and fish — capable of piercing skulls and shells with its strong bite.",
+      "habitat": "Tropical rainforests, wetlands, and dense riverine forests across Central and South America.",
+      "threats": "Habitat loss, deforestation, poaching, and human-wildlife conflict."
+    },
+    {
+      "id": 9183,
+      "name": "Rufous-collared Sparrow",
+      "scientificName": "Zonotrichia capensis",
+      "position": {
+        "lat": 2.6198,
+        "lng": -69.6747
+      },
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/112061150/medium.jpeg",
+      "status": "Least Concern",
+      "population": "2861 observations on iNaturalist",
+      "description": "A species found in the rainforest.",
+      "diet": "See iNaturalist for details",
+      "habitat": "Rainforest",
+      "threats": "Habitat loss, climate change"
+    },
+    {
+      "id": 3439,
+      "name": "Eared Dove",
+      "scientificName": "Zenaida auriculata",
+      "position": {
+        "lat": -1.9749,
+        "lng": -57.567
+      },
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/85633474/medium.jpeg",
+      "status": "Least Concern",
+      "population": "2820 observations on iNaturalist",
+      "description": "A species found in the rainforest.",
+      "diet": "See iNaturalist for details",
+      "habitat": "Rainforest",
+      "threats": "Habitat loss, climate change"
+    },
+    {
+      "id": 4765,
+      "name": "Black Vulture",
+      "scientificName": "Coragyps atratus",
+      "position": {
+        "lat": 0.4907,
+        "lng": -53.4673
+      },
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/14689662/medium.jpg",
+      "status": "Least Concern",
+      "population": "2417 observations on iNaturalist",
+      "description": "A species found in the rainforest.",
+      "diet": "See iNaturalist for details",
+      "habitat": "Rainforest",
+      "threats": "Habitat loss, climate change"
+    },
+    {
+      "id": 10295,
+      "name": "Blue-gray Tanager",
+      "scientificName": "Thraupis episcopus",
+      "position": {
+        "lat": -7.3194,
+        "lng": -66.3372
+      },
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/177459123/medium.jpg",
+      "status": "Least Concern",
+      "population": "2137 observations on iNaturalist",
+      "description": "A species found in the rainforest.",
+      "diet": "See iNaturalist for details",
+      "habitat": "Rainforest",
+      "threats": "Habitat loss, climate change"
+    },
+    {
+      "id": 4867,
+      "name": "Southern Lapwing",
+      "scientificName": "Vanellus chilensis",
+      "position": {
+        "lat": 4.0337,
+        "lng": -63.324
+      },
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/261192086/medium.jpg",
+      "status": "Least Concern",
+      "population": "2132 observations on iNaturalist",
+      "description": "A species found in the rainforest.",
+      "diet": "See iNaturalist for details",
+      "habitat": "Rainforest",
+      "threats": "Habitat loss, climate change"
+    },
+    {
+      "id": 144455,
+      "name": "Great Egret",
+      "scientificName": "Ardea alba",
+      "position": {
+        "lat": 3.3908,
+        "lng": -60.8403
+      },
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/56653891/medium.jpg",
+      "status": "Least Concern",
+      "population": "1909 observations on iNaturalist",
+      "description": "A species found in the rainforest.",
+      "diet": "See iNaturalist for details",
+      "habitat": "Rainforest",
+      "threats": "Habitat loss, climate change"
+    },
+    {
+      "id": 35342,
+      "name": "Green Iguana",
+      "scientificName": "Iguana iguana",
+      "position": {
+        "lat": 2.1098,
+        "lng": -62.4522
+      },
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/356025444/medium.jpg",
+      "status": "Least Concern",
+      "population": "1693 observations on iNaturalist",
+      "description": "A species found in the rainforest.",
+      "diet": "See iNaturalist for details",
+      "habitat": "Rainforest",
+      "threats": "Habitat loss, climate change"
+    },
+    {
+      "id": 553515,
+      "name": "Cane Toad",
+      "scientificName": "Rhinella marina",
+      "position": {
+        "lat": -2.6925,
+        "lng": -62.8238
+      },
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/28767824/medium.jpg",
+      "status": "Least Concern",
+      "population": "1663 observations on iNaturalist",
+      "description": "A species found in the rainforest.",
+      "diet": "See iNaturalist for details",
+      "habitat": "Rainforest",
+      "threats": "Habitat loss, climate change"
+    },
+    {
+      "id": 116517,
+      "name": "Spectacled Caiman",
+      "scientificName": "Caiman crocodilus",
+      "position": {
+        "lat": 4.2848,
+        "lng": -64.4095
+      },
+      "imageUrl": "https://static.inaturalist.org/photos/185182912/medium.jpeg",
+      "status": "Least Concern",
+      "population": "1177 observations on iNaturalist",
+      "description": "A species found in the rainforest.",
+      "diet": "See iNaturalist for details",
+      "habitat": "Rainforest",
+      "threats": "Habitat loss, climate change"
+    },
+    {
+      "id": 27919,
+      "name": "Thickhead Ground Snake",
+      "scientificName": "Atractus crassicaudatus",
+      "position": {
+        "lat": 3.6128,
+        "lng": -63.8274
+      },
+      "imageUrl": "https://static.inaturalist.org/photos/215474301/medium.jpeg",
+      "status": "Least Concern",
+      "population": "1171 observations on iNaturalist",
+      "description": "A species found in the rainforest.",
+      "diet": "See iNaturalist for details",
+      "habitat": "Rainforest",
+      "threats": "Habitat loss, climate change"
+    },
+    {
+      "id": 38913,
+      "name": "Giant Ameiva",
+      "scientificName": "Ameiva ameiva",
+      "position": {
+        "lat": -8.3917,
+        "lng": -70.839
+      },
+      "imageUrl": "https://static.inaturalist.org/photos/60558340/medium.jpg",
+      "status": "Least Concern",
+      "population": "1104 observations on iNaturalist",
+      "description": "A species found in the rainforest.",
+      "diet": "See iNaturalist for details",
+      "habitat": "Rainforest",
+      "threats": "Habitat loss, climate change"
+    },
+    {
+      "id": 49001,
+      "name": "Common Lancehead",
+      "scientificName": "Bothrops atrox",
+      "position": {
+        "lat": -9.6402,
+        "lng": -60.1587
+      },
+      "imageUrl": "https://static.inaturalist.org/photos/28285205/medium.jpeg",
+      "status": "Least Concern",
+      "population": "1051 observations on iNaturalist",
+      "description": "A species found in the rainforest.",
+      "diet": "See iNaturalist for details",
+      "habitat": "Rainforest",
+      "threats": "Habitat loss, climate change"
+    },
+    {
+      "id": 23901,
+      "name": "Red-eyed Tree Frog",
+      "scientificName": "Agalychnis callidryas",
+      "position": {
+        "lat": -9.3195,
+        "lng": -66.3213
+      },
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/173688685/medium.jpg",
+      "status": "Least Concern",
+      "population": "Widespread across Central and South America",
+      "description": "The Red-eyed Tree Frog is one of the most iconic amphibians of the rainforest, easily recognized by its bright red eyes, vibrant green body, and blue-and-yellow striped sides. It is nocturnal and spends most of its life in trees near ponds and rivers.",
+      "diet": "Carnivorous, feeding mainly on insects such as crickets, moths, and flies.",
+      "habitat": "Lowland tropical rainforests, usually near freshwater sources for breeding.",
+      "threats": "Habitat loss, deforestation, and climate change."
+    }
+  ]
+}
