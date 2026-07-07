@@ -1,3 +1,4 @@
+// Welcome.jsx - Contains the UI code for the welcome page
 import { Link, useNavigate } from "react-router-dom";
 
 export default function Welcome() {
@@ -5,8 +6,11 @@ export default function Welcome() {
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-slate-950 via-slate-900 to-slate-800 text-white">
+
       {/* Header */}
       <header className="mx-auto flex w-full max-w-7xl items-center justify-between px-6 py-6">
+
+        {/* WildRealms Logo */}
         <div className="flex items-center gap-3">
           <div className="grid h-9 w-9 place-items-center rounded-lg bg-emerald-400/15 ring-1 ring-emerald-400/30">
             <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden className="text-emerald-300">
@@ -16,13 +20,18 @@ export default function Welcome() {
               />
             </svg>
           </div>
+
+          {/* Wild Realms Title */}
           <span className="text-lg font-semibold tracking-tight">Wild Realms</span>
+
+          {/* Demo Tag */}
           <span className="ml-2 hidden rounded bg-white/10 px-2 py-0.5 text-xs ring-1 ring-white/15 sm:inline">
-            Preview
+            Demo
           </span>
+          
         </div>
 
-        {/* Right side: Data & Methods + Auth */}
+        {/* Right side: Data & Methods + Auth | NOT IMPLEMENTED */}
         <nav className="flex items-center gap-3">
           <Link to="/methods" className="hidden md:inline rounded-full bg-white/10 px-4 py-2 text-sm ring-1 ring-white/15 hover:bg-white/15">
             Data & Methods
@@ -38,48 +47,55 @@ export default function Welcome() {
 
       {/* Main */}
       <main className="mx-auto grid w-full max-w-7xl flex-1 grid-cols-1 items-center gap-10 px-6 pb-14 pt-4 md:grid-cols-2">
-        {/* Copy column */}
+        
+        {/* Main Sub-Text */}
         <section className="text-center md:text-left">
           <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">
-            Model ecosystem change. <span className="block text-emerald-300">Inform real decisions.</span>
+            Model ecosystem change. 
+            <span className="block text-emerald-300">Inform real decisions.</span>
           </h1>
+
+          {/* Secondary Sub-Text */}
           <p className="mt-4 max-w-xl text-lg text-white/85 md:pr-6">
             Explore biomes, inspect species, and run 12-month scenarios for pressures like habitat loss,
             climate change, harvest, invasives, or conservation actions.
           </p>
 
           <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-start">
-            {/* Animated rounded button */}
+            
+            {/* Animated Rounded Continue Button */}
             <button
               id="main-cta"
               onClick={() => navigate("/biomes")}
               className="inline-flex items-center justify-center gap-2 rounded-full bg-emerald-400 px-8 py-3 font-semibold text-slate-900 shadow-lg transition hover:bg-emerald-300 focus:outline-none focus-visible:ring-4 focus-visible:ring-emerald-200"
               style={{ animation: "wr-pulse 2.6s ease-in-out infinite" }}
-              aria-label="Continue to biome selection"
-            >
+              aria-label="Continue to biome selection">
               Continue <span aria-hidden>▶</span>
             </button>
 
+            {/* Rounded View Data & Methods Button | NOT IMPLEMENTED */}
             <Link
               to="/methods"
-              className="rounded-full bg-white/10 px-6 py-3 font-semibold ring-1 ring-white/15 transition hover:bg-white/15"
-            >
+              className="rounded-full bg-white/10 px-6 py-3 font-semibold ring-1 ring-white/15 transition hover:bg-white/15">
               View Data & Methods
             </Link>
           </div>
 
-          {/* Chips */}
+          {/* Text Chips */}
           <div className="mt-8 flex flex-wrap gap-2 text-xs">
             {["Data v2025.09","Reproducible Scenarios","CSV / JSON Export","Uncertainty Bands"].map((t) => (
               <span key={t} className="rounded-full bg-white/10 px-3 py-1 ring-1 ring-white/15">{t}</span>
             ))}
           </div>
+          
         </section>
 
-        {/* Visual card (kept from previous) */}
+        {/* Right Side Visual card (kept from previous) */}
         <section className="mx-auto w-full max-w-xl">
           <div className="relative rounded-3xl bg-white/[0.06] p-6 ring-1 ring-white/10 shadow-2xl backdrop-blur">
             <div className="absolute inset-0 -z-10 rounded-3xl bg-gradient-to-br from-emerald-500/20 via-cyan-500/10 to-transparent blur-2xl" />
+
+            {/* Biomes | MISSING OCEAN */}
             <div className="flex flex-wrap gap-2">
               {[
                 ["Aquatic","bg-cyan-500/20 ring-cyan-400/40"],
@@ -92,6 +108,7 @@ export default function Welcome() {
               ))}
             </div>
 
+            {/* Population Chart */}
             <div className="mt-4 rounded-2xl bg-slate-950/50 p-4 ring-1 ring-white/10">
               <div className="mb-2 text-xs text-white/70">Population (12 months)</div>
               <div className="flex h-28 items-end gap-1">
@@ -101,6 +118,7 @@ export default function Welcome() {
               </div>
             </div>
 
+            {/* Health Indicator */}
             <div className="mt-4 grid grid-cols-3 gap-3 text-xs">
               <div className="rounded-xl bg-white/5 p-3 ring-1 ring-white/10">
                 <div className="text-white/70">Health</div>
@@ -108,17 +126,23 @@ export default function Welcome() {
                   <div className="h-2 rounded bg-emerald-400" style={{width: "72%"}} />
                 </div>
               </div>
+
+              {/* Population Count */}
               <div className="rounded-xl bg-white/5 p-3 ring-1 ring-white/10">
                 <div className="text-white/70">Population</div>
                 <div className="mt-1 font-semibold">100,000</div>
               </div>
+
+              {/* Biome Status */}
               <div className="rounded-xl bg-white/5 p-3 ring-1 ring-white/10">
                 <div className="text-white/70">Status</div>
                 <div className="mt-1 font-semibold text-amber-300">Near Threatened</div>
               </div>
             </div>
 
+            {/* Chart Sub-Text */}
             <p className="mt-3 text-xs text-white/60">Keyboard accessible • Alt-text • High-contrast</p>
+            
           </div>
         </section>
       </main>

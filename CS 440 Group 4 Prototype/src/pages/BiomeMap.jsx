@@ -75,7 +75,7 @@ const SPECIES_BY_BIOME = {
   ocean: oceanSpeciesData,
 };
 
-const GOOGLE_MAPS_API_KEY = "AIzaSyB-oUdRv_4EckOv_p1FhwGUON4EpUzq8KA";
+const GOOGLE_MAPS_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 
 const mapContainerStyle = {
   width: '100%',

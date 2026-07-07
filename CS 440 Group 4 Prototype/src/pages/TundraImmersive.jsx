@@ -22,9 +22,12 @@ import {
 import { Const } from "three/tsl";
 
 
+/* ----------------------------- Needed for Models to Load ----------------------------- */
+// Applies base url to file paths
+const withBase = (p) => import.meta.env.BASE_URL + p.replace(/^\//, "");
+
 /* ----------------------------- Occupied Positions For Fixed Models ----------------------------- */
 const occupiedPositions= [];
-
 
 /* ----------------------------- Functions For Mountains ----------------------------- */
 const TERRAIN_NOISE = (x, z) => {
@@ -115,7 +118,7 @@ function TundraAmbience({ url = "/sounds/tundraBackground.wav", volume = 0.3, mu
     soundRef.current = sound;
 
     const loader = new THREE.AudioLoader();
-    loader.load(url, (buffer) => {
+    loader.load(withBase(url), (buffer) => {
       sound.setBuffer(buffer);
       sound.setLoop(true);
       sound.setVolume(muted ? 0 : volume);
@@ -367,7 +370,7 @@ function buildModels({name="",paths=[], count=0, area=0, yCoord=0, sizeRange=[0,
   try {
     //Loading All GLTF Models Into The Scene
     const models = paths.map((path) => {
-      const { scene } = useGLTF(path);
+      const { scene } = useGLTF(withBase(path));
       return scene;
     });
     
@@ -1132,7 +1135,7 @@ function AnimalModel({
     gameStarted,
     onDiscover,
 }) {
-    const { scene } = useGLTF(modelPath);
+    const { scene } = useGLTF(withBase(modelPath));
     useEffect(() => {
         console.log(`✅ Loaded animal model: ${modelPath}`);
         
