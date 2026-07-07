@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+.DS_Store
+More Files/
+Vite + React*
+*.mov
+WildRealms Simulator.html
